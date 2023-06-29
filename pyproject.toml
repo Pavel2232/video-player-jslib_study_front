@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "video-player-jslib"
+version = "0.1.0"
+description = ""
+authors = ["Павел <king-he@mail.ru>"]
+readme = "README.md"
+packages = [{include = "video_player_jslib"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+livereload = "^2.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

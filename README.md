@@ -14,7 +14,7 @@
 Два рабочих примера:
 
 - Страница с минимальными настройками — [example_min.html](./example_min.html)
-- Страница с максимальными настройками — [example_max.html](./example_max.html)
+- Страница с максимальными настройками — [example_max.html](./index.html)
 
 ## Как подключить
 
