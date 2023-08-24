@@ -10,7 +10,7 @@
   </style>
 </head>
 <body>
-  <div class="main-body" id="player" style="width: 800px; height: 600px;">
+  <div class="main-body" id="player" style="width: 640px; height: 480px;">
 
     <div class="js-video-container vp-screen"></div>
 
@@ -23,9 +23,12 @@
       </button>
       <button class="js-volume-button vp-buttons"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
       <button class="js-mute-button vp-buttons"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+       <span class="js-current-time vp-current-time"></span>
       <div class="js-progress vp-progress" style="background-color: grey;">
-        <div class="js-progress-slider " style="background-color: red;">Прогресс</div>
-    </div>
+        <div class="js-progress-slider " style="background-color: red;"></div>
+      <div><span class="dot"></span></div>
+      </div>
+              <span class="js-duration vp-duration"></span>
       <button class="js-fullscreen-button vp-buttons"><i class="fa fa-expand" aria-hidden="true"></i></button>
   </div>
 
