@@ -29,6 +29,7 @@
   height: 4px;
   margin: 8px;
   border-radius: 3px;
+  align-items: center;
 }
 
 .vp-current-time{
@@ -51,5 +52,24 @@
   display: inline-block;
   border: white;
   border-style: solid;
-  margin: -10px -10px 5px -5px
+  cursor: pointer;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
+
+.vp-progress__wrapper:hover .dot{
+  opacity: 1;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+}
+
+.vp-progress__wrapper{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.vp-progress-slider{
+  height: 100%;
 }

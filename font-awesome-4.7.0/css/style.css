@@ -1,0 +1,16 @@
+.main-body{
+  width: 640px;
+  height: 480px;
+}
+
+.vp-controllers{
+  background-color: black;
+}
+
+.vp-progress{
+  background-color: grey;
+}
+
+.vp-progress-slider{
+  background-color: red;
+}

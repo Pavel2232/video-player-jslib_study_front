@@ -5,16 +5,17 @@
   <title>Пример подключения плеера</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css ">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/style.css ">
   <style>
 
   </style>
 </head>
 <body>
-  <div class="main-body" id="player" style="width: 640px; height: 480px;">
+  <div class="main-body" id="player">
 
     <div class="js-video-container vp-screen"></div>
 
-    <div class="vp-controllers" style="background-color:black">
+    <div class="vp-controllers">
       <button class="js-play-button vp-buttons">
         <i  class="fa fa-play" aria-hidden="false"></i>
       </button>
@@ -23,10 +24,11 @@
       </button>
       <button class="js-volume-button vp-buttons"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
       <button class="js-mute-button vp-buttons"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+      <div class="vp-progress__wrapper">
        <span class="js-current-time vp-current-time"></span>
-      <div class="js-progress vp-progress" style="background-color: grey;">
-        <div class="js-progress-slider " style="background-color: red;"></div>
-      <div><span class="dot"></span></div>
+      <div class="js-progress vp-progress">
+        <div class="js-progress-slider vp-progress-slider"></div>
+      <span class="dot"></span>
       </div>
               <span class="js-duration vp-duration"></span>
       <button class="js-fullscreen-button vp-buttons"><i class="fa fa-expand" aria-hidden="true"></i></button>
